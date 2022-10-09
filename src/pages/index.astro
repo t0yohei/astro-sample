@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import VueSample from '../components/VueSample.vue';
+import VueSampleLoad from '../components/VueSampleLoad.vue';
 
 ---
 
@@ -35,6 +36,7 @@ import VueSample from '../components/VueSample.vue';
 			/>
 		</ul>
 		<VueSample />
+		<VueSampleLoad client:load />
 	</main>
 </Layout>
 
