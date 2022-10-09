@@ -1,0 +1,1 @@
+import{d as e}from"./chunks/runtime-core.esm-bundler.dd21472a.js";const p=e({__name:"VueSampleLoad",setup(o){return console.log("hello script setup"),(t,n)=>"this is vue component load"}});export{p as default};
